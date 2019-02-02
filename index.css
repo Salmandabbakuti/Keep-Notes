@@ -37,7 +37,7 @@ body{
 #main{
        width: 600px;
        height: 700px;
-       margin: 70px 380px 50px 380px;
+       margin: 0 auto;
        border: 2px white solid;
        background-color: rgb(245, 239, 239);
         }
