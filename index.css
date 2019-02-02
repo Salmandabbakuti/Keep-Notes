@@ -1,0 +1,53 @@
+h3, h2, h4 {
+    font-family: sans-serif;
+    margin: 0;
+    color: green;
+    text-align: center;
+}
+ .example, #noteId {
+  padding: 6px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: fixed;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+button {
+     width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 8px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:active {
+    background-color: rgb(0, 81, 125);
+}
+
+button:hover {
+    opacity: 0.7;
+} body{
+         background-image: url(daa.jpg);
+         font-family: 'Courgette', cursive;
+        }
+  #main{
+            width: 600px;
+            height: 700px;
+            margin: 70px 380px 50px 380px;
+            border: 2px white solid;
+            background-color: rgb(245, 239, 239);
+        }
+ #content {
+    width: 180px;
+    height: 120px;
+    padding: 10px 8px;
+    border: 2px solid rgb(199, 194, 194);
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+    background-color: rgb(216, 210, 210);
+}
