@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>e-notes</title>
+  <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <center><h2>e-notes</h2></center>
+   <div  id ="main">
+  <div style="text-align: center;">
+<input type="text"  id="searchId" class="example" placeholder="Search.." name="search2" style="margin:auto;max-width:300px">
+<button type="submit" id="getNotes"><i class="fa fa-search"></i></button>
+</div>
+<div style="text-align: center;">
+<input type="text" id="noteId" placeholder="Enter Your Title" required />
+<input type="text" id="content" placeholder="What's On Your Mind?" required />
+<button id="addNote">Save Note</button>
+<button id="updateNote">Update Note<button>
+</div>
+</br>
+<div id = "response" style="text-align: center;">
+<p><b>Title:</b></p>
+ <span id="getNoteId">??</span>
+<p><b>Content:</b></p>
+<span id="getContent">??</span>
+<p><b>Created On :</b><span id="getTimestamp">??</span></p>
+<button class="btn" id="deleteNote"><i class="fa fa-trash"></i></button>
+</div>
+ </div>
+ <div id="log" style="text-align: center;">
+ <div>
+<script src="web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src ="index.js"></script>
+</body>
+</html>
