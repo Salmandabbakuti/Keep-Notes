@@ -6,17 +6,23 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <center><h2>e-notes</h2></center>
+  <center><h1>e-notes</h1></center>
    <div  id ="main">
   <div style="text-align: center;">
-<input type="text"  id="searchId" class="example" placeholder="Search.." name="search2" style="margin:auto;max-width:300px">
+<input type="text"  id="searchId" class="example" placeholder="Search Notes.." name="search2" style="margin:auto;max-width:300px">
 <button type="submit" id="getNotes"><i class="fa fa-search"></i></button>
 </div>
+</br>
+</br>
 <div style="text-align: center;">
 <input type="text" id="noteId" placeholder="Enter Your Title" required />
-<input type="text" rows="4" id="content" placeholder="What's On Your Mind?" required />
+</div>
+<div style="text-align: center;">
+<textarea type="text" rows="4" id="content" placeholder="What's On Your Mind?" required /></textarea>
+</div>
+<div style="text-align: center;">
 <button id="addNote">Save Note</button>
-<button id="updateNote">Update Note<button>
+<button id="updateNote">Update Note</button>
 </div>
 </br>
 <div id = "response" style="text-align: center;">
